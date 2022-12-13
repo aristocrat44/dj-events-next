@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx lint
-npx test:ci
-npx test:e2e
+npm run lint
+npm run test:ci
+npm test:e2e
