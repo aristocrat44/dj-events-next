@@ -1,3 +1,11 @@
+import { useRouter } from 'next/router';
+
 export default function EventPage() {
-  return <div>[slug]</div>;
+  const router = useRouter();
+
+  return (
+    <div>
+      <h1>{router.query.slug}</h1>
+    </div>
+  );
 }
