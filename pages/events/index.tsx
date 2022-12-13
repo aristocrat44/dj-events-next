@@ -1,3 +1,9 @@
+import Layout from '../../components/Layout';
+
 export default function index() {
-  return <div>My Events</div>;
+  return (
+    <Layout>
+      <div>my events</div>
+    </Layout>
+  );
 }

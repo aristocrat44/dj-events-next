@@ -1,14 +1,11 @@
 import { Box } from '@mui/system';
 import Link from 'next/link';
+import Layout from '../components/Layout';
 
 export default function AboutPage() {
   return (
-    <div>
+    <Layout title="About DJ Events">
       <h1>About</h1>
-      <Box>
-        <p>This is a app to find DJ Events</p>
-      </Box>
-      <Link href="/">Home</Link>
-    </div>
+    </Layout>
   );
 }
