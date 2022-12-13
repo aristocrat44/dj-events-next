@@ -10,6 +10,7 @@
     "lint:fix": "next lint --fix",
     "test": "jest --watchAll",
     "test:ci": "jest --ci",
+    "test:e2e": "cypress run",
     "cypress:open": "cypress open",
     "prepare": "husky install"
   },
